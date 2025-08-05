@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE = 'my-web-app'
         DOCKER_TAG = "${BUILD_NUMBER}"
         CONTAINER_NAME = 'web-app-container'
-        PORT = '8080'
+        PORT = '8090'
     }
     
     stages {
